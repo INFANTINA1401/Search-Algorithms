@@ -18,30 +18,42 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
 i)	#Use a linear search method to match the item in a list.
-```
-
-
-
-```
+'''\
+Program to mark the maximum of marks using the list method sort.\
+DEVELOPED BY:INFANTINA MARIA L\
+REGISTER NO:212223100013\
+'''\
+def max_marks(array):\
+    array.sort()\
+    return array[-1]\
 ii)	# Find the element in a list using Binary Search(Iterative Method).
-```
-
-
-
-
-
-```
+'''\
+Program to find the maximum marks using the list method max().\
+DEVELOPED BY:INFANTINA MARIA L\
+REGISTER NO:212223100013\
+'''\
+def max_marks(array):\
+    return max(array)\
 iii)	# Find the element in a list using Binary Search (recursive Method).
-```
-
-
-
-
-
-```
+'''\
+Program to find the maximum marks without using builtin functions.\
+DEVELOPED BY:INFANTINA MARIA L\
+REGISTER NO:212223100013\
+'''\
+def max_marks(array):\
+    max1=array[0]\
+    for i in range(1,len(array)):\
+        if max1<array[i]:\
+            max1=array[i]\
+    return max1
 ## Sample Input and Output
 
-
+![alt text](<Screenshot 2024-04-16 202528.png>)
+![alt text](<Screenshot 2024-04-16 202608.png>)
+![alt text](<Screenshot 2024-04-16 202634.png>)
+![alt text](<Screenshot 2024-04-16 202645.png>)
+![alt text](<Screenshot 2024-04-16 202702.png>)
+![alt text](<Screenshot 2024-04-16 202715.png>)
 
 
 
